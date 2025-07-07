@@ -9,6 +9,7 @@ import {
 
 import { ShieldIcon, ShieldIcon2 } from "@/assets/card-icons";
 import { HeroChart } from "@/assets/chart";
+import { NumberCounter } from "@/components/atom/number-flow";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -110,7 +111,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="container mt-20 grid items-end gap-3 md:grid-cols-2">
+        <div className="container my-20 grid items-end gap-3 md:grid-cols-2">
           <div className="space-y-4">
             <h3 className="text-4xl">
               We help{" "}
@@ -156,6 +157,40 @@ export default function Home() {
                 <ShieldIcon2 className="absolute bottom-0 left-0 h-auto w-full" />
               </CardContent>
             </Card>
+          </div>
+        </div>
+        <div className="flex items-center justify-center gap-20">
+          <div className="flex flex-col items-center justify-center">
+            <NumberCounter
+              value={9}
+              className="text-6xl font-medium"
+              suffix="+"
+            />
+            <h3>Years of Excellence</h3>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <NumberCounter
+              value={2.6}
+              className="text-6xl font-medium"
+              suffix="K+"
+            />
+            <h3>Clients Served</h3>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <NumberCounter
+              value={840}
+              className="text-6xl font-medium"
+              suffix="B+"
+            />
+            <h3>Assets Under Advisement</h3>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <NumberCounter
+              value={18}
+              className="text-6xl font-medium"
+              suffix="%"
+            />
+            <h3>Monthly Growth</h3>
           </div>
         </div>
       </section>

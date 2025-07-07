@@ -129,7 +129,7 @@ export const ShieldIcon = (
           width="687"
           height="491"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -150,7 +150,7 @@ export const ShieldIcon = (
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -171,7 +171,7 @@ export const ShieldIcon = (
           width="34"
           height="34"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -192,7 +192,7 @@ export const ShieldIcon = (
           width="32"
           height="32"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -213,7 +213,7 @@ export const ShieldIcon = (
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -234,7 +234,7 @@ export const ShieldIcon = (
           width="34"
           height="34"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -255,7 +255,7 @@ export const ShieldIcon = (
           width="32"
           height="32"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -277,8 +277,8 @@ export const ShieldIcon = (
           y2="193.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EFF8FB" />
-          <stop offset="1" stop-color="#99E3FF" />
+          <stop stopColor="#EFF8FB" />
+          <stop offset="1" stopColor="#99E3FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_70_24"
@@ -288,8 +288,8 @@ export const ShieldIcon = (
           y2="198.052"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#162F5E" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#162F5E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_70_24"
@@ -299,8 +299,8 @@ export const ShieldIcon = (
           y2="172.471"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#007CAB" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#007CAB" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_70_24"
@@ -310,8 +310,8 @@ export const ShieldIcon = (
           y2="174.507"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#007CAB" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#007CAB" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_70_24"
@@ -321,8 +321,8 @@ export const ShieldIcon = (
           y2="171.252"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#007CAB" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#007CAB" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_70_24"
@@ -332,8 +332,8 @@ export const ShieldIcon = (
           y2="123"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_70_24"
@@ -343,8 +343,8 @@ export const ShieldIcon = (
           y2="168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_70_24"
@@ -354,8 +354,8 @@ export const ShieldIcon = (
           y2="204"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_70_24"
@@ -365,8 +365,8 @@ export const ShieldIcon = (
           y2="130"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_70_24"
@@ -376,8 +376,8 @@ export const ShieldIcon = (
           y2="173"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_70_24"
@@ -387,8 +387,8 @@ export const ShieldIcon = (
           y2="204"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#09B1F0" />
-          <stop offset="1" stop-color="#09B1F0" stopOpacity="0" />
+          <stop stopColor="#09B1F0" />
+          <stop offset="1" stopColor="#09B1F0" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -595,7 +595,7 @@ export const ShieldIcon2 = (
           width="687"
           height="491"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -617,8 +617,8 @@ export const ShieldIcon2 = (
           y2="263.992"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F1EFFB" />
-          <stop offset="1" stop-color="#C2B3FF" />
+          <stop stopColor="#F1EFFB" />
+          <stop offset="1" stopColor="#C2B3FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_71_25"
@@ -628,8 +628,8 @@ export const ShieldIcon2 = (
           y2="243.001"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#6240ED" />
-          <stop offset="1" stop-color="#352280" />
+          <stop stopColor="#6240ED" />
+          <stop offset="1" stopColor="#352280" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_71_25"
@@ -639,8 +639,8 @@ export const ShieldIcon2 = (
           y2="243.001"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#6240ED" />
-          <stop offset="1" stop-color="#352280" />
+          <stop stopColor="#6240ED" />
+          <stop offset="1" stopColor="#352280" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_71_25"
@@ -650,8 +650,8 @@ export const ShieldIcon2 = (
           y2="273"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_71_25"
@@ -661,8 +661,8 @@ export const ShieldIcon2 = (
           y2="282"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_71_25"
@@ -672,8 +672,8 @@ export const ShieldIcon2 = (
           y2="292"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_71_25"
@@ -683,8 +683,8 @@ export const ShieldIcon2 = (
           y2="302"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_71_25"
@@ -694,8 +694,8 @@ export const ShieldIcon2 = (
           y2="323.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_71_25"
@@ -705,8 +705,8 @@ export const ShieldIcon2 = (
           y2="313.602"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_71_25"
@@ -716,8 +716,8 @@ export const ShieldIcon2 = (
           y2="305.003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_71_25"
@@ -727,8 +727,8 @@ export const ShieldIcon2 = (
           y2="331.339"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_71_25"
@@ -738,8 +738,8 @@ export const ShieldIcon2 = (
           y2="340.077"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_71_25"
@@ -749,8 +749,8 @@ export const ShieldIcon2 = (
           y2="348.815"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_71_25"
@@ -760,8 +760,8 @@ export const ShieldIcon2 = (
           y2="261.445"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_71_25"
@@ -771,8 +771,8 @@ export const ShieldIcon2 = (
           y2="257.731"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_71_25"
@@ -782,8 +782,8 @@ export const ShieldIcon2 = (
           y2="254.496"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_71_25"
@@ -793,8 +793,8 @@ export const ShieldIcon2 = (
           y2="264.404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_71_25"
@@ -804,8 +804,8 @@ export const ShieldIcon2 = (
           y2="267.692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_71_25"
@@ -815,8 +815,8 @@ export const ShieldIcon2 = (
           y2="270.979"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D6CCFF" />
-          <stop offset="0.5" stop-color="#D6CCFF" stopOpacity="0" />
+          <stop stopColor="#D6CCFF" />
+          <stop offset="0.5" stopColor="#D6CCFF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
