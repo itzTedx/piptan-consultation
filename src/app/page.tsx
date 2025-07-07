@@ -1,103 +1,164 @@
 import Image from "next/image";
 
+import {
+  IconChevronRight,
+  IconSparkles,
+  IconUser,
+  IconUsers,
+} from "@tabler/icons-react";
+
+import { ShieldIcon, ShieldIcon2 } from "@/assets/card-icons";
+import { HeroChart } from "@/assets/chart";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="-z-1">
+      <section className="relative mx-6 mt-1 mb-7">
+        <div className="relative container rounded-2xl md:overflow-hidden">
+          <div className="grid items-center gap-4 py-9 md:grid-cols-12 md:py-16">
+            <div className="flex flex-col gap-8 md:col-span-7">
+              <p className="font-aloevera flex w-fit items-center gap-3 rounded-full border bg-white/10 p-1 text-sm backdrop-blur-lg md:text-base">
+                <span className="bg-primary-foreground text-primary inline-block rounded-full px-3 py-1">
+                  Leading
+                </span>
+                Providers of Investment Advisory Solutions
+                <IconChevronRight className="mr-2 size-4" />
+              </p>
+              <h1 className="font-aloevera text-3xl font-bold text-balance md:text-6xl">
+                Empowering Financial Growth Through Strategic Advisory
+              </h1>
+              <p className="text-balance">
+                We help individuals and enterprises make informed financial
+                decisions, build strong portfolios, and manage risk with
+                confidence.
+              </p>
+              <div className="space-x-4">
+                <Button size="lg" variant="secondary">
+                  Get Started
+                  <span className="bg-primary text-primary-foreground grid size-10 place-content-center rounded-full">
+                    <IconSparkles className="size-6" />
+                  </span>
+                </Button>
+                <Button variant="outline" size="lg">
+                  Talk to an expert
+                </Button>
+              </div>
+              <ul className="flex w-fit items-center gap-6 rounded-md border bg-gradient-to-b from-white/10 to-transparent p-4 text-sm backdrop-blur-lg md:gap-8 md:p-6 md:text-base">
+                <li className="flex items-center gap-2">
+                  <IconUser className="size-4" /> <p>Individual</p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <IconUsers className="size-4" /> <p>Scaling Companies</p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <IconUser className="size-4" /> <p>Enterprise</p>
+                </li>
+              </ul>
+            </div>
+            <div className="relative flex flex-col md:col-span-5">
+              <div className="absolute top-1/2 -left-1/2 z-10 w-fit translate-x-1/2 -translate-y-1/4 rounded-xl border border-white bg-white/80 shadow-xl backdrop-blur-xl">
+                <p className="px-3 py-1 text-xs text-black/40">
+                  Monthly Growth
+                </p>
+                <HeroChart />
+              </div>
+              <div className="grid gap-2">
+                <div className="bg-primary relative row-span-4 aspect-6/4 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/business-man.webp"
+                    alt=""
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="bg-primary relative row-span-3 aspect-6/3 overflow-hidden rounded-xl">
+                  <Image
+                    src="/images/man-charts.webp"
+                    alt=""
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <Image
+            src="/images/hero-bg.webp"
+            fill
+            alt=""
+            className="-z-1 object-cover brightness-90"
+          />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+      <section className="bg-background text-foreground rounded-t-4xl py-12">
+        <div className="container grid gap-3 md:grid-cols-2">
+          <h2 className="text-4xl">
+            Why <br />
+            Choose us
+          </h2>
+          <div className="space-y-4">
+            <h3 className="text-xl">Trusted by Clients Across Industries</h3>
+            <ul className="flex items-center gap-6">
+              <li>Logo 1</li>
+              <li>Logo 2</li>
+              <li>Logo 3</li>
+              <li>Logo 4</li>
+              <li>Logo 5</li>
+              <li>Logo 6</li>
+            </ul>
+          </div>
+        </div>
+        <div className="container mt-20 grid items-end gap-3 md:grid-cols-2">
+          <div className="space-y-4">
+            <h3 className="text-4xl">
+              We help{" "}
+              <span className="text-primary">Individuals and Enterprises</span>{" "}
+              make informed Financial Decisions,{" "}
+              <span className="text-muted-foreground">
+                build strong portfolios, and manage risk with confidence.
+              </span>
+            </h3>
+            <Button
+              size="lg"
+              className="from-primary to-foreground bg-gradient-to-tr"
+            >
+              Learn more about us{" "}
+              <span className="bg-primary text-primary-foreground grid size-10 place-content-center rounded-full">
+                <IconSparkles className="size-6" />
+              </span>
+            </Button>
+          </div>
+
+          <div className="grid gap-3 md:grid-cols-2">
+            <Card>
+              <CardHeader>
+                <CardTitle>Investment Strategy Development</CardTitle>
+              </CardHeader>
+              <CardContent className="pb-40">
+                <p>
+                  We combine expert insight with advanced analytics to deliver
+                  smarter investment decisions and consistent portfolio growth.
+                </p>
+                <ShieldIcon className="absolute bottom-0 left-0 h-auto w-full" />
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Risk Management That Works</CardTitle>
+              </CardHeader>
+              <CardContent className="pb-40">
+                <p>
+                  Our proactive risk frameworks protect your assets and optimize
+                  outcomes - no guesswork, just results.
+                </p>
+                <ShieldIcon2 className="absolute bottom-0 left-0 h-auto w-full" />
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
