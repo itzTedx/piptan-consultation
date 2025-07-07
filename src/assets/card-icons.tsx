@@ -1,8 +1,4 @@
-import { JSX, SVGProps } from "react";
-
-export const ShieldIcon = (
-  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
-) => {
+export const ShieldIcon = (props: SvgProps) => {
   return (
     <svg
       {...props}
@@ -395,9 +391,7 @@ export const ShieldIcon = (
   );
 };
 
-export const ShieldIcon2 = (
-  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
-) => {
+export const ShieldIcon2 = (props: SvgProps) => {
   return (
     <svg
       {...props}

@@ -54,6 +54,10 @@ export const helvetica = localFont({
   fallback: ["system-ui", "arial"],
   src: [
     {
+      weight: "200",
+      path: "./helvetica/HelveticaNowDisplay-Light.woff",
+    },
+    {
       weight: "400",
       path: "./helvetica/HelveticaNowDisplay-Regular.woff",
     },

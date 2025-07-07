@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { aloevera, helvetica } from "@/assets/fonts";
+import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { cn } from "@/lib/utils";
 
@@ -27,6 +28,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
