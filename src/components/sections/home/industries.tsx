@@ -1,3 +1,7 @@
+import Image from "next/image";
+
+import { IconChevronRight } from "@tabler/icons-react";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -23,39 +27,45 @@ export const IndustriesSection = () => {
             <TabsList className="h-auto w-full flex-col items-start gap-2 bg-transparent py-0">
               <TabsTrigger
                 value="tab-1"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                Technology & Life Sciences
+                Technology & Life Sciences{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-2"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                Financial Services
+                Financial Services{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-3"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                Real Estate & Development
+                Real Estate & Development{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-4"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                Manufacturing & Engineering
+                Manufacturing & Engineering{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-5"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                NGOs & Charities
+                NGOs & Charities{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-6"
-                className="data-[state=active]:bg-muted w-full justify-start data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
               >
-                Government & Regulatory Bodies
+                Government & Regulatory Bodies{" "}
+                <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
             </TabsList>
             <div className="grow rounded-md text-start">
@@ -65,7 +75,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -83,7 +96,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -101,7 +117,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -119,7 +138,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -137,7 +159,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -155,7 +180,10 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <h4>
+                    <div className="relative aspect-video">
+                      <Image src="/images/service.webp" alt="" fill />
+                    </div>
+                    <h4 className="font-aloevera mb-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
