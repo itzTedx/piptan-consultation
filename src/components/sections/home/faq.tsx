@@ -43,6 +43,10 @@ export const FaqSection = () => {
   return (
     <section className="bg-background text-foreground py-20">
       <div className="container grid grid-cols-2 gap-6">
+        <h2 className="text-4xl">
+          Frequently <br />
+          Asked Questions
+        </h2>
         <BasicAccordion
           items={accordionItems}
           allowMultiple={true}
