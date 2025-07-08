@@ -68,7 +68,7 @@ export const SERVICES = [
   {
     title: "Portfolio Management",
     description:
-      "Whether you’re expanding your portfolio across borders or evaluating new opportunities, we provide regulatory guidance, and local insights.",
+      "Whether you are expanding your portfolio across borders or evaluating new opportunities, we provide regulatory guidance, and local insights.",
   },
   {
     title: "Corporate Financial Consulting",
