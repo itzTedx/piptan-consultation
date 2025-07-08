@@ -27,44 +27,45 @@ export default function Home() {
             Works
           </h2>
           <p>A Strategic Process That Delivers</p>
-
-          <ul className="mt-12 grid grid-cols-4 gap-6">
-            {WHO_WORKS.map((step) => (
-              <li className="group" key={step.id}>
-                <Card className="bg-primary-foreground/80 h-full">
-                  <CardContent className="h-full border-t-0 p-0 px-4 pb-4">
-                    <div className="mb-3 flex h-12 items-end gap-2 overflow-hidden border-b">
-                      <span className="text-primary-foreground group-hover:text-primary translate-y-4 text-5xl font-medium transition-[transform_color] duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-y-0">
-                        0{step.id}
-                      </span>
-                      <h4 className="text-muted-foreground font-aloevera">
-                        {step.label}
-                      </h4>
-                    </div>
-                    <div className="relative aspect-4/3">
-                      <Image
-                        src={step.image}
-                        alt=""
-                        fill
-                        className="rounded-md object-cover"
-                      />
-                    </div>
-                    <div className="mt-4 flex items-center gap-2">
-                      <IconShield className="size-9" />
-                      <div>
-                        <h4 className="font-medium">{step.title}</h4>
-                        <p className="text-[10px]">{step.heading}</p>
+          <div className="relative">
+            <ul className="relative mt-12 grid grid-cols-4 gap-6">
+              {WHO_WORKS.map((step) => (
+                <li className="group" key={step.id}>
+                  <Card className="bg-primary-foreground/80 h-full">
+                    <CardContent className="h-full border-t-0 p-0 px-4 pb-4">
+                      <div className="mb-3 flex h-12 items-end gap-2 overflow-hidden border-b">
+                        <span className="text-primary-foreground group-hover:text-primary translate-y-4 text-5xl font-medium transition-[transform_color] duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:translate-y-0">
+                          0{step.id}
+                        </span>
+                        <h4 className="text-muted-foreground font-aloevera">
+                          {step.label}
+                        </h4>
                       </div>
-                    </div>
+                      <div className="relative aspect-4/3">
+                        <Image
+                          src={step.image}
+                          alt=""
+                          fill
+                          className="rounded-md object-cover"
+                        />
+                      </div>
+                      <div className="mt-4 flex items-center gap-2">
+                        <IconShield className="size-9" />
+                        <div>
+                          <h4 className="font-medium">{step.title}</h4>
+                          <p className="text-[10px]">{step.heading}</p>
+                        </div>
+                      </div>
 
-                    <p className="mt-2 text-sm text-balance">
-                      {step.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              </li>
-            ))}
-          </ul>
+                      <p className="mt-2 text-sm text-balance">
+                        {step.description}
+                      </p>
+                    </CardContent>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
       <IndustriesSection />
