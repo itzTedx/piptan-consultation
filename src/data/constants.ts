@@ -108,7 +108,7 @@ export const WHO_WORKS = [
   },
   {
     id: 3,
-    image: "/images/consultation.webp",
+    image: "/images/strategy.webp",
     label: "Market Research",
     title: "Research & Strategy Building",
     heading: "Insight-Driven Strategy Powered by Intelligence",
@@ -117,7 +117,7 @@ export const WHO_WORKS = [
   },
   {
     id: 4,
-    image: "/images/discovery.webp",
+    image: "/images/monitoring.webp",
     label: "Execution & Oversight",
     title: "Execution, Monitoring & Oversight",
     heading: "Turning Strategy into Action, and Action into Results",
