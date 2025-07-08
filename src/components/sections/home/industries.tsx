@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export const IndustriesSection = () => {
   return (
     <section className="bg-background text-foreground">
-      <div className="container max-w-7xl space-y-2 pb-20">
+      <div className="container max-w-7xl space-y-2 py-20">
         <div>
           <h2 className="text-4xl">
             Industries <br />
