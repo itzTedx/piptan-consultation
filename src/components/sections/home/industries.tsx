@@ -75,10 +75,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -96,10 +101,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -117,10 +127,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -138,10 +153,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -159,10 +179,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">
@@ -180,10 +205,15 @@ export const IndustriesSection = () => {
                     <CardTitle>Technology & Life Sciences</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="relative aspect-video">
-                      <Image src="/images/service.webp" alt="" fill />
+                    <div className="relative aspect-video overflow-hidden rounded-md">
+                      <Image
+                        src="/images/service.webp"
+                        alt=""
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <h4 className="font-aloevera mb-2 text-xl font-medium">
+                    <h4 className="font-aloevera mb-2 pt-2 text-xl font-medium">
                       Fueling innovation with strategic financial planning.
                     </h4>
                     <p className="text-xl">

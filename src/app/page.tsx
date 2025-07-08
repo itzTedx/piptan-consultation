@@ -1,3 +1,4 @@
+import { Cta } from "@/components/sections/cta";
 import { HeroSection } from "@/components/sections/home/hero";
 import { IndustriesSection } from "@/components/sections/home/industries";
 import { ServiceCarousel } from "@/components/sections/home/service-carousel";
@@ -12,6 +13,7 @@ export default function Home() {
       <ServicesSection />
       <ServiceCarousel />
       <IndustriesSection />
+      <Cta />
     </main>
   );
 }
