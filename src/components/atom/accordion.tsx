@@ -41,7 +41,7 @@ export default function BasicAccordion({
 
   return (
     <div
-      className={`divide-border flex w-full flex-col divide-y overflow-hidden rounded-lg border ${className}`}
+      className={`divide-border flex w-full flex-col divide-y overflow-hidden rounded-lg border bg-white ${className}`}
     >
       {items.map((item) => {
         const isExpanded = expandedItems.includes(item.id);
@@ -50,7 +50,7 @@ export default function BasicAccordion({
           <div key={item.id} className="overflow-hidden">
             <button
               onClick={() => toggleItem(item.id)}
-              className="hover:bg-primary flex w-full items-center justify-between gap-2 px-4 py-3 text-left transition-colors"
+              className="hover:bg-primary-foreground flex w-full cursor-pointer items-center justify-between gap-2 px-4 py-3 text-left transition-colors"
               aria-expanded={isExpanded}
             >
               <h3 className="font-medium">{item.title}</h3>

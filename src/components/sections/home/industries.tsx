@@ -24,45 +24,45 @@ export const IndustriesSection = () => {
             orientation="vertical"
             className="grid w-full grid-cols-2 flex-row items-start gap-4"
           >
-            <TabsList className="h-auto w-full flex-col items-start gap-2 bg-transparent py-0">
+            <TabsList className="h-auto w-full flex-col items-start gap-3 bg-transparent py-0">
               <TabsTrigger
                 value="tab-1"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 Technology & Life Sciences{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-2"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 Financial Services{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-3"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 Real Estate & Development{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-4"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 Manufacturing & Engineering{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-5"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 NGOs & Charities{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
               </TabsTrigger>
               <TabsTrigger
                 value="tab-6"
-                className="data-[state=active]:bg-muted w-full justify-between data-[state=active]:shadow-none"
+                className="data-[state=active]:bg-muted w-full justify-between border text-base data-[state=active]:shadow-none"
               >
                 Government & Regulatory Bodies{" "}
                 <IconChevronRight className="text-muted-foreground size-4" />
