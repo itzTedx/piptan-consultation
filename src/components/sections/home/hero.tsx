@@ -104,6 +104,7 @@ export const HeroSection = () => {
                   alt="Man analyzing financial charts on a screen"
                   fill
                   className="object-cover"
+                  priority
                 />
               </div>
             </div>
@@ -114,6 +115,7 @@ export const HeroSection = () => {
           fill
           alt="Abstract financial background with charts and graphs"
           className="-z-1 object-cover brightness-90"
+          priority
         />
       </div>
     </header>
