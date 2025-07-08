@@ -114,7 +114,7 @@ export const HeroSection = () => {
           src="/images/hero-bg.webp"
           fill
           alt="Abstract financial background with charts and graphs"
-          className="-z-1 object-cover brightness-90"
+          className="pointer-events-none -z-1 object-cover brightness-90"
           priority
         />
       </div>
